@@ -1,11 +1,11 @@
 from art import logo
-import random
+from random import randint
 
 print(logo)
 print("Welcome to the Number Guessing Game!")
 print("I'm thinking of a number between 1 and 100.")
 
-number = random.randint(1,100)
+number = randint(1,100)
 print(f"Pssst the actual number is {number}")
 
 difficulty = input("Choose a difficulty. Type 'easy' of 'hard': ")
